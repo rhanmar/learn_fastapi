@@ -1,0 +1,8 @@
+PUT http://127.0.0.1:8000/items/1
+Content-Type: application/json
+
+{
+    "name": "test",
+    "price": 10.1,
+    "is_offer": true
+}
