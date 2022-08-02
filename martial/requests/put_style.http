@@ -1,0 +1,7 @@
+PUT http://127.0.0.1:8000/api/styles/1
+Content-Type: application/json
+
+{
+    "name": "Kickboxing",
+    "type": "kick"
+}
