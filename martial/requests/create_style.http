@@ -5,3 +5,12 @@ Content-Type: application/json
     "name": "New style",
     "type": "mixed"
 }
+
+###
+POST http://localhost:8000/api/tasks
+Content-Type: application/json
+
+{
+    "title": "string123",
+    "color": "string123"
+}
